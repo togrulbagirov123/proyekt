@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.left {
+  width: 20%;
+  float: left;
+  padding-top: 10px;
+  color: blanchedalmond;
+}
+
+.right {
+  margin-top: 10px;
+  text-align: right;
+  width: 90%;
+}
+
+.right a {
+  font-size: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+header {
+  padding: 5px 70px;
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.man h2 {
+  padding-top: 300px;
+  color: wheat;
+}
+
+.man {
+  text-align: center;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+  padding-bottom: 260px;
+}
+
+.man h1 {
+  margin-bottom: 10px;
+  letter-spacing: 10px;
+  color: wheat;
+}
+
+.man a {
+  background-color: gold;
+  color: wheat;
+  border-radius: 8px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.servis p {
+  font-style: italic;
+}
+
+.servis {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.box {
+  float: left;
+  font-size: 33px;
+  width: 33.3%;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 100px;
+}
+
+.box i {
+  font-size: 60px;
+  color: wheat;
+  background-color: yellow;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.l {
+  text-align: center;
+}
+
+.o {
+  float: left;
+  width: 30%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+.o {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.l {
+  margin-top: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  opacity: 0.8;
+  background-color: yellow;
+}
+
+.o {
+  position: relative;
+}
+
+.o:hover .overlay {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
